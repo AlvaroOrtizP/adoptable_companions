@@ -3,9 +3,8 @@ package com.adoptable_companions.adoptable_companions.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.adoptable_companions.adoptable_companions.entity.CatEntity;
-
+import com.adoptable_companions.adoptable_companions.entity.PersonaEntity;
 @Repository
-public interface CatRepository extends JpaRepository<CatEntity, Integer>{
-	
+public interface PersonaRepository extends JpaRepository<PersonaEntity, Integer> {
 }
+
