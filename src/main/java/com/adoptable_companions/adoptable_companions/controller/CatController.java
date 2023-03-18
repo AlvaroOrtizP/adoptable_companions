@@ -28,7 +28,7 @@ public class CatController {
 		// Caso de error
 		List<CatEntity> response = new ArrayList<>();
 		response = catService.getAllCats();
-		return new ResponseEntity<Object>(null, HttpStatus.OK);
+		return new ResponseEntity<Object>(response, HttpStatus.OK);
 	}
 
 	@GetMapping("/raza/{race}")
