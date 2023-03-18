@@ -17,17 +17,7 @@ Para instalar la aplicación, siga los siguientes pasos:
 
 ## Para utilizar la aplicación, siga los siguientes pasos:
 
-Cree una cuenta de usuario si aún no tiene una.
-Explore los animales disponibles para su adopción.
-Seleccione los animales que le interesen y haga clic en "Solicitar adopción".
-Complete el formulario de solicitud de adopción y envíe la solicitud.
-Contribuir
-Si desea contribuir al proyecto, siga los siguientes pasos:
 
-Haga un fork del repositorio.
-Cree una rama para su nueva función o corrección de errores.
-Realice los cambios necesarios.
-Cree un pull request para enviar sus cambios al proyecto principal.
 
 
 **[Ir al índice](#Índice)**
