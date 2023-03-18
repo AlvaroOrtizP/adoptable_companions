@@ -19,19 +19,19 @@ public class AnimalService {
         this.animalRepository = animalRepository;
     }
 
-    public List<AnimalEntity> findAll() {
+    public List<AnimalEntity> getAllAnimals() {
         return animalRepository.findAll();
     }
 
-    public Optional<AnimalEntity> findById(Integer id) {
-        return animalRepository.findById(id);
+    public Optional<AnimalEntity> findById(Long animalId) {
+        return animalRepository.findById(animalId);
     }
 
     public AnimalEntity save(AnimalEntity animal) {
         return animalRepository.save(animal);
     }
 
-    public void deleteById(Integer id) {
+    public void deleteById(Long id) {
         animalRepository.deleteById(id);
     }
 }
